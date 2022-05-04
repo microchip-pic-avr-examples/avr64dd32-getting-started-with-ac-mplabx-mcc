@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64dd32-getting-started-with-ac-mplabx-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Analog Comparator (AC) in three different modes using the AVR64DD32 microcontroller using MCC Melody",
         "projectName": "avr64dd32-getting-started-with-ac-mplabx-mcc",
         "shortDescription": "Getting started with AC and MCC for AVR64DD32",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.0.0"
         },
-        "compiler": [
+		"compiler": [
             {
                 "name": "XC8",
                 "semverRange": "^2.36.0"
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.1.152"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "N/A",
+            "semverRange": " "
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,13 @@
             }
         },
         "author": "Andrei Buruiana",
-        "peripherals": [],
-        "keywords": [],
+         "peripherals": [
+            "CMP"
+        ],
+        "keywords": [
+            "Getting Started",           
+			"CMP"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
